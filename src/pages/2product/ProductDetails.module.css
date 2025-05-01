@@ -1,0 +1,96 @@
+
+.grid31 {
+  grid-area: grid31;
+  overflow: hidden;
+  height: 610px;
+  width: 1242px;
+  border: 3px solid  #f1eef1;
+  border-radius: 10px;
+  margin-left: 40px;
+  /*background-image: url('/src/assets/images/Fon2.jpg');*/
+  background: linear-gradient(90deg, #FFFFFF, #FBF4FB, #FFFFFF);
+  display: grid;
+  grid-template-columns: 480px 755px;
+  grid-template-rows: 480px 114px;
+  grid-template-areas:
+  'grid311 grid312'
+  'grid313 grid312';
+}
+
+
+.grid311 {
+  grid-area: grid311;
+  overflow: hidden;
+  border: 3px solid  #f1eef1;
+  border-radius: 10px;
+  /*background-image: url('/src/assets/images/Fon2.jpg');*/
+  background: linear-gradient(90deg, #FFFFFF, #F0F0F0, #FBF4FB, #FFFFFF);
+  margin-left: 10px;
+  margin-top: 10px;
+
+}
+.grid311 img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid  #f1eeef;
+  /*box-shadow: 0 16px 38px -12px rgba(233, 231, 231, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(224, 220, 220, 0.2);*/
+  padding: 2px;
+}
+
+.grid312 {
+  grid-area: grid312;
+  overflow: hidden;
+  border: 3px solid  #f1eef1;
+  border-radius: 10px;
+  /*background-image: url('/src/assets/images/Fon2.jpg');*/
+  background: linear-gradient(90deg, #FFFFFF, #F0F0F0, #FBF4FB, #FFFFFF);
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 20px;
+}
+.grid313 {
+  grid-area: grid313;
+  overflow: hidden;
+  border-radius: 30px;
+  margin-top: 10px;
+  margin-left: 10px;
+  text-align: center;
+  box-shadow: 0 16px 38px -12px rgba(233, 231, 231, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(224, 220, 220, 0.2);
+}
+
+.addButton, .editButton {
+  background: linear-gradient(90deg, #7b677c, #4b0145, #494849, #ebc6ea);
+  color: #fefcfd;
+  border: none;
+  cursor: pointer;
+  font-size: 30px;
+  text-shadow: 2px 2px 5px rgb(134, 133, 133);
+  border-radius: 30px;
+  transition: transform 0.2s ease, background-color 0.2s ease; /* Плавные эффекты */
+  height: 100%;
+  width: 100%;
+}
+
+.addButton:active, .editButton:active {
+  transform: scale(0.95); /* Эффект "нажатия" */
+}
+
+.notification {
+  position: fixed; /* Фиксируем на экране */
+  top: 20%; /* Отступ сверху */
+  left: 30%; /* Центрируем по горизонтали */
+  transform: translate(-50%, -50%); /* Центрирование */
+  background-color: #8b2077; /* Привлекающий внимание цвет */
+  color: rgb(250, 250, 250); /* Белыфй текст */
+  font-size: 20px;
+  padding: 20px; /* Внутренние отступы */
+  border-radius: 10px; /* Скруглённые углы */
+  z-index: 9999; /* Гарантированно выше других элементов */
+  opacity: 1; /* Полная видимость */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Лёгкая тень */
+}
+
+
+

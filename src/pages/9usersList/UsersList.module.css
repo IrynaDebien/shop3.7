@@ -1,0 +1,34 @@
+
+.usersContainer {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+  
+h1 {
+    text-align: center;
+}
+  
+.usersTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+  
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+  
+th {
+    background-color: #eee;
+}
+  
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+  

@@ -1,0 +1,12 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;    
+}
+body {
+  max-width: 1550px;
+  min-width: 320px; /* Более широкое минимальное значение для удобства */
+  height: 100vh; /* Использовать всю высоту экрана */
+  background-image: url('/src/assets/images/Fon2.jpg');
+}
+

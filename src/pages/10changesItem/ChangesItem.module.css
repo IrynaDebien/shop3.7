@@ -1,0 +1,105 @@
+.grid31 {
+  grid-area: grid31;
+  overflow: hidden;
+  height: 610px;
+  width: 1242px;
+  border: 3px solid  #f3dff3;
+  box-shadow: 0 4px 8px rgba(82, 2, 64, 0.2);
+  border-radius: 10px;
+  margin-left: 40px;
+  background: linear-gradient(90deg, #FFFFFF, #FBF4FB, #FFFFFF);
+  display: grid;
+  grid-template-columns: 480px 755px;
+  grid-template-rows: 480px 114px;
+  grid-template-areas:
+  'grid311 grid312'
+  'grid313 grid312';
+}
+
+.grid311 {
+  grid-area: grid311;
+  overflow: hidden;
+ 
+  border-radius: 10px;
+  background: linear-gradient(90deg, #FFFFFF, #F0F0F0, #FBF4FB, #FFFFFF);
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.grid311 img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid  #f1eeef;
+  /*box-shadow: 0 16px 38px -12px rgba(233, 231, 231, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(224, 220, 220, 0.2);*/
+  padding: 2px;
+}
+
+.grid312 {
+  grid-area: grid312;
+  display: grid;
+  grid-template-rows: 480px 100px; 
+  grid-template-areas:
+    "grid3121"
+    "grid3122"; 
+
+  border-radius: 10px;
+  background: linear-gradient(90deg, #FFFFFF, #F0F0F0, #FBF4FB, #FFFFFF);
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.grid3121 {
+  grid-area: grid3121;
+
+
+}
+.grid3121d{
+  grid-area: grid3121d;
+  height: 230px;
+  border: 3px solid  #f1eff1;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #FFFFFF, #F0F0F0, #FBF4FB, #FFFFFF);
+}
+
+.grid31211 {
+  grid-area: grid31211;
+
+}
+
+.grid3122 {
+  grid-area: grid3122;
+
+}
+
+textarea { 
+  width: 100%; /* Ширина на всю доступную область */ 
+  height: 100%;
+  height: 180px; /* Фиксированная высота */ 
+  resize: none; /* Отключение изменения размера пользователем */ 
+
+  font-size: 16px; /* Размер текста внутри текстового поля */ 
+  border-radius: 10px;
+  background: linear-gradient(90deg, #FFFFFF, #F0F0F0, #FBF4FB, #FFFFFF);
+}
+
+.grid313 {
+  grid-area: grid313;
+  overflow: hidden;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #FFFFFF, #F0F0F0, #FBF4FB, #FFFFFF);
+  margin-left: 10px;
+  margin-top: 10px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.changesItem:active {
+  transform: scale(0.95); /* Эффект "нажатия" */
+}
+
+
+

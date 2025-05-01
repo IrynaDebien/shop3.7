@@ -1,0 +1,87 @@
+.grid2 {
+    display: grid;
+    grid-template-rows: 30px 30px 30px 30px 30px 30px 30px 30px 30px; /* Сетка по вертикали */
+    grid-template-areas: 
+        "grid21"
+        "grid22"
+        "grid23"
+        "grid24"
+        "grid25"
+        "grid26"
+        "grid27"
+        "grid28"
+        "grid29";
+    grid-area: grid2; /* Привязка к области сетки */
+    /*border: 5px solid rgb(68, 185, 220);*/
+    height: 610px;
+    overflow-y: auto;
+}
+
+.grid21 {
+    grid-area: grid21; /* Задаём область */
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(134, 133, 133);
+    margin: 10px;
+     /*border: 5px solid rgb(68, 185, 220);*/
+    height: 30px;
+}
+
+.grid22 {
+    grid-area: grid22; /* Задаём область */
+}
+.grid23 {
+    grid-area: grid23; /* Задаём область */
+}
+.grid24 {
+    grid-area: grid24; /* Задаём область */
+}
+.grid25 {
+    grid-area: grid25; /* Задаём область */
+}
+.grid26 {
+    grid-area: grid26; /* Задаём область */
+}
+.grid27 {
+    grid-area: grid27; /* Задаём область */
+}
+.grid28 {
+    grid-area: grid28; /* Задаём область */
+}
+.grid29 {
+    grid-area: grid29; /* Задаём область */
+}
+.grid22, .grid23, .grid24, .grid25, .grid26, .grid27, .grid28, .grid29 {
+    text-align: left;
+    margin: 10px;
+    display: block;
+    /*border: 5px solid rgb(68, 185, 220);*/
+    height: 30px;
+    box-shadow: 0 16px 38px -12px rgba(233, 231, 231, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(224, 220, 220, 0.2);
+    border-radius: 10px;
+}
+
+.grid22:hover, .grid23:hover, .grid24:hover, .grid25:hover, .grid26:hover, .grid27:hover, .grid28:hover, .grid29:hover  {
+    background-color: rgb(243, 233, 243); /* Эффект наведения */
+}
+
+ul {
+    list-style: none; /* Убираем маркеры */
+    padding: 0; /* Убираем отступы */
+    margin: 0; /* Убираем поля */
+}
+
+
+a:link{
+    text-decoration: none;
+    color: black;
+}
+
+.navLink{
+    display: block;
+    height: 30px;
+    width: 100%;
+    border-radius: 10px;
+    /*border: 5px solid rgb(68, 185, 220);*/
+    padding-left: 10px;
+    padding-top: 5px;
+}  

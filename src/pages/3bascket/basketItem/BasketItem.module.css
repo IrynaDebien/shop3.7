@@ -1,0 +1,163 @@
+
+.grid31 {
+    grid-area: grid31;
+    display: grid;
+    grid-template-columns: 150px 120px 180px 590px 180px ;
+    grid-template-areas:
+        'grid311 grid312 grid312 grid312 grid318'
+        'grid311 grid313 grid313 grid313 grid313'
+        'grid311 grid314 grid315 grid316 grid317';
+    overflow: hidden;
+    height: 160px;
+    width: 1242px;
+    border: 3px solid  #f1eef1;
+    border-radius: 10px;
+    /*background-image: url('/src/assets/images/Fon2.jpg');*/
+    background: linear-gradient(90deg, #FFFFFF, #F0F0F0, #FBF4FB, #FFFFFF); /* Белый, светло-серый, очень светлый розовый */
+  }
+  .grid311 {
+    grid-area: grid311;
+   /* border: 1px solid rgb(245, 6, 6); */
+  }
+  .grid311>img{
+    width: auto;
+    padding: 10px;
+    height: 140px;
+    display: block;
+  }
+  .grid312 {
+    grid-area: grid312;
+    display: block;
+   /* border: 1px solid rgb(245, 6, 6);*/
+    height: 45px;
+    padding-top: 5px;
+    padding-left: 10px;
+    color: #566f8d;
+    font-size: 14px;
+  }
+  .grid313 {
+    grid-area: grid313;
+    /*border: 1px solid blue;*/
+    height: 20px;
+    font-weight: bold;
+    color: #888888;
+    padding-left: 10px;
+  }
+  
+  
+  .grid314 {
+    grid-area: grid314;
+    /*border: 1px solid rgb(245, 6, 6);*/
+    height: 85px;
+    padding-top: 20px;
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: 100;
+    color: #888888;
+    position: relative;
+    /*text-decoration: line-through;*/
+  }
+  .prix {
+    color: #888888; /* Цвет текста */
+    font-size: 20px;
+    font-weight: 100;
+    position: relative;
+    z-index: 2; /* Текст находится выше базового уровня */
+  }
+  .overlayLine {
+    position: absolute; /* Позволяет наложить картинку */
+    top: 45%; /* Позиционирует изображение */
+    transform: translate(-50%, -50%) rotate(135deg);  /*Центрирует и поворачивает изображение */
+    width: 60%; /* Подстройка размеров линии */
+    height: auto; /* Сохраняет пропорции */
+    margin-left: 20px;
+    z-index: 1; /* Изображение линии под текстом */
+  }
+  .grid315 {
+    grid-area: grid315;
+    /*border: 1px solid rgb(245, 6, 6);*/
+    height: 85px;
+    padding-top: 15px;
+    padding-left: 10px;
+    font-size: 25px;
+    color: #302e33;
+  }
+  .grid316 {
+    grid-area: grid316;
+    /*border: 1px solid rgb(245, 6, 6);*/
+    height: 85px;
+    padding-top: 20px;
+    padding-left: 300px;
+    display: grid;
+    grid-template-columns: 50px 75px 50px;
+    grid-template-areas:
+    'grid3161 grid3162 grid3163';
+  }
+  .grid3161 {
+    grid-area: grid3161;
+    /*border: 1px solid rgb(245, 6, 6);*/
+    height: 40px;
+    width: 50px;
+  }
+  .grid3162 {
+    grid-area: grid3162;
+    /*border: 1px solid rgb(245, 6, 6);*/
+    height: 40px;
+    width: 75px;
+  }
+  .grid3163 {
+    grid-area: grid3163;
+    /*border: 1px solid rgb(245, 6, 6);*/
+    height: 40px;
+    width: 50px;
+  }
+  .grid317 {
+    grid-area: grid317;
+    /*border: 1px solid rgb(245, 6, 6);*/
+    height: 85px;
+    padding-top: 15px;
+    padding-left: 20px;
+    font-size: 25px;
+    color: #302e33;
+  }
+  .grid318 {
+    grid-area: grid318;
+    /*border: 1px solid rgb(245, 6, 6);*/
+    height: 45px;
+    padding-left: 100px;
+    padding-top: 10px;
+  }
+  .button1 {
+    height: 40px;
+    width: 50px;
+    border-radius: 20px 0 0 20px;
+    font-size: 30px;
+    border: 1px solid #c1c1c1;
+    color: #888888;
+    background-color: #fefefe;
+  }
+  .number {
+    height: 40px;
+    width: 75px;
+    font-size: 30px;
+    border: 1px solid #c1c1c1;
+    color: #888888;
+    background-color: #fefefe;
+    text-align: center;
+  }
+  .button3 {
+    height: 40px;
+    width: 50px;
+    border-radius: 0 20px 20px 0;
+    font-size: 30px;
+    border: 1px solid #c1c1c1;
+    color: #888888;
+    background-color: #fefefe;
+  }
+  
+  
+  .productLink {
+    text-decoration: none;
+    color: inherit;
+  }
+  

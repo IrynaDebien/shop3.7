@@ -1,0 +1,50 @@
+
+.grid31{
+  grid-area: grid31;
+  /*border: 6px solid #0fd930; */ 
+  display: inline-block; 
+  background: linear-gradient(90deg, #FFFFFF,#ebdceb, #F0F0F0, #FFFFFF); 
+  width: 1255px;
+  padding: 2px;
+  border: 2px solid  #f1d2f1;
+  box-shadow: 0 16px 38px -12px rgba(233, 231, 231, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(224, 220, 220, 0.2);
+  border-radius: 10px;
+  padding-left: 5px;
+}
+  
+.grid32{
+  grid-area: grid32;
+  display: grid;
+  grid-template-columns: 250px 400px 500px;
+  grid-template-areas:
+  'grid321 grid322 grid323';
+  overflow: hidden;
+  height: 60px;
+  width: 1255px;
+  border: 0px solid  #f1eef1;
+  border-radius: 10px;
+  /*background-image: url('/src/assets/images/Fon2.jpg');*/
+  background: linear-gradient(90deg, #FFFFFF,#f5eaf5, #F0F0F0, #f5eaf5);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.grid321{
+  grid-area: grid321;
+  margin-left: 50px;
+  padding-top: 15px;
+}
+
+.grid322{
+  grid-area: grid322;
+  padding-top: 15px;
+}
+.grid323{
+  grid-area: grid323;
+  margin: 5px;
+  margin-top: 8px;
+  padding-top: 10px;
+  text-align: center;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #7b677c, #4b0145, #494849, #ebc6ea);
+  color: #fefcfd;
+}

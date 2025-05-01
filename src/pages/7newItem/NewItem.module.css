@@ -1,0 +1,71 @@
+
+.grid31 {
+  grid-area: grid31;
+  overflow: hidden;
+  height: 600px;
+  width: 800px;
+  border: 3px solid  #e1d6e1;
+  border-radius: 20px;
+  background: linear-gradient(90deg, #FFFFFF, #FBF4FB, #FFFFFF);
+  padding: 20px;
+  padding-top: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-left: 200px;
+}
+.grid31h1{
+  height: 40px;
+  text-align: center;
+  font-size: larger;
+}
+
+.grid312button{
+  grid-area: grid31button;
+  overflow: hidden;
+  height: 50px;
+  width: 300px;
+  border: 3px solid  #d6ced7;
+  border-radius: 10px;
+  margin-top: 60px;
+  background: linear-gradient(90deg, #ebc6ea, #7b677c, #4b0145, #6f6a6f, #ebc6ea);
+}
+
+form button {
+  padding: 10px;
+  background: linear-gradient(90deg, #ebc6ea, #7b677c, #4b0145, #6f6a6f, #ebc6ea);
+  color: #fefcfd;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 5px rgb(134, 133, 133);
+}
+.grid31button:active {
+  transform: scale(0.95); /* Эффект "нажатия" */
+}
+
+.grid311 {
+  grid-area: grid31;
+  overflow: hidden;
+  height: 200px;
+  width: 754px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background: linear-gradient(90deg, #FFFFFF, #FBF4FB, #FFFFFF);
+}
+
+
+form label {
+  flex-direction: column;
+}
+form input, form textarea {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+}
+
+  

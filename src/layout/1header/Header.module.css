@@ -1,0 +1,58 @@
+.grid1{
+    display: grid;
+    grid-template-columns: 135px auto 400px;  
+    grid-template-areas: 
+    'grid11 grid12 grid13';
+
+}
+.grid1 {
+    grid-area: grid1;
+    /*border: 5px solid rgb(68, 185, 220);*/
+}
+.grid11 {
+    grid-area: grid11;
+    text-align: center;
+    font-size: 30px;
+    /*border: 5px solid rgb(68, 185, 220);*/
+}
+.grid12 {
+    grid-area: grid12;
+     /*border: 5px solid rgb(68, 185, 220);*/
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(134, 133, 133);
+    padding-top: 10px;
+}
+.grid13 {
+    grid-area: grid13;
+     /*border: 5px solid rgb(68, 185, 220);*/
+    display: grid;
+    grid-template-columns: 300px 100px;  
+    grid-template-areas: 
+    'grid131 grid132';
+}
+.grid131 {
+    grid-area: grid131;
+    padding-top: 15px;
+    text-align: center;
+    /*border: 5px solid rgb(68, 185, 220);*/
+}
+
+.grid132 {
+    grid-area: grid132;
+    /*border: 5px solid rgb(68, 185, 220);*/
+}
+
+.logoutButton {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background: linear-gradient(90deg, #7b677c, #4b0145, #494849, #ebc6ea);
+    color: #fefcfd;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .logoutButton:hover {
+    background-color: #7c2c74;
+  }
+    

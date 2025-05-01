@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": "1746087811872",
+      "email": "irina@gmail.com",
+      "password": "12345",
+      "phone": "486596",
+      "address": "поаспмли",
+      "role": "admin"
+    },
+    {
+      "id": "1746087842549",
+      "email": "ira@gmail.com",
+      "password": "111111",
+      "phone": "6588",
+      "address": "лрмдои",
+      "role": "user"
+    },
+    {
+      "id": "1746087903076",
+      "email": "user1@example.com",
+      "password": "222222",
+      "phone": "475486",
+      "address": "одпдроэь",
+      "role": "user"
+    }
+  ]
+}

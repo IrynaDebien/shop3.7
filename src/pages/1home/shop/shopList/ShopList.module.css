@@ -1,0 +1,18 @@
+.grid31 {
+  grid-area: grid31;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+  padding: 5px;
+  background: linear-gradient(135deg, #f3f0f2,#e1d7df,#efe9ee , #f1ebf0); 
+  background-color: rgb(243, 233, 243);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+  
+.grid31 > * {
+  flex: 1 1 calc(50% - 20px); /* Элемент занимает половину ширины контейнера с учётом отступов */
+  box-sizing: border-box; /* Учитываем padding и border в размерах элемента */
+}
+  
+  

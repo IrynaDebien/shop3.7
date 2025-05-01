@@ -1,0 +1,42 @@
+{
+  "baskets": [
+    {
+      "id": "1746087811872",
+      "items": []
+    },
+    {
+      "id": "1746087842549",
+      "items": [
+        {
+          "id": "1746036107096",
+          "photo": "/assets/images/1.jpg",
+          "Name": "книга \"Гарри Поттер\"",
+          "Prix": "25 грн",
+          "Nprix": "",
+          "quantity": 2
+        },
+        {
+          "id": "1746038586794",
+          "photo": "http://localhost:5173/assets/images/3.jpg",
+          "Name": "чугунная сковородка",
+          "Prix": "50 грн",
+          "Nprix": "40 грн",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "1746087903076",
+      "items": [
+        {
+          "id": "1746038782395",
+          "photo": "http://localhost:5173/assets/images/4.jpg",
+          "Name": "пылесос",
+          "Prix": "65 грн",
+          "Nprix": "60 грн",
+          "quantity": 2
+        }
+      ]
+    }
+  ]
+}

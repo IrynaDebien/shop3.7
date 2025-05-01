@@ -1,0 +1,71 @@
+
+form label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+
+
+form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f0edef;
+}
+
+
+
+form button:hover {
+  background-color: #8d6b89;
+}
+
+.message {
+  margin-top: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.grid31 {
+  grid-area: grid31;
+  overflow: hidden;
+  height: 400px;
+  width: 600px;
+  border: 2px solid #f1d2f1;
+  box-shadow: 0 16px 38px -12px rgba(233, 231, 231, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(224, 220, 220, 0.2);
+  border-radius: 20px;
+  margin-left: 40px;
+  background: linear-gradient(90deg, #FFFFFF, #FBF4FB, #FFFFFF);
+  margin-left: 300px;
+  margin-top: 100px;
+  padding: 30px;
+}
+
+.grid31button{
+  grid-area: grid31button;
+  overflow: hidden;
+  height: 50px;
+  width: 300px;
+  border: 3px solid  #e4b4e4;
+  border-radius: 20px;
+  margin-left: 120px;
+  margin-top: 60px;
+  background: linear-gradient(90deg, #ebc6ea, #7b677c, #4b0145, #6f6a6f, #ebc6ea);
+}
+
+form button {
+  padding: 10px;
+  background: linear-gradient(90deg, #ebc6ea, #7b677c, #4b0145, #6f6a6f, #ebc6ea);
+  color: #fefcfd;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 5px rgb(134, 133, 133);
+}
+.grid31button:active {
+  transform: scale(0.95); /* Эффект "нажатия" */
+}

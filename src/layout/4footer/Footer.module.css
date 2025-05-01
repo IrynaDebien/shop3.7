@@ -1,0 +1,30 @@
+.grid4{
+    display: grid;
+    grid-template-columns: 250px auto 250px;  
+    grid-template-areas: 
+    'grid41 grid42 grid43';
+}
+
+.grid4 {
+    grid-area: grid4;
+     /*border: 5px solid rgb(68, 185, 220);*/
+}
+
+
+.grid41 {
+    grid-area: grid41;
+     /*border: 5px solid rgb(68, 185, 220);*/
+    text-align: left;
+    padding-left: 10px;
+}
+.grid42 {
+    grid-area: grid42;
+    /*border: 5px solid rgb(68, 185, 220);*/
+}
+.grid43 {
+    grid-area: grid43;
+     /*border: 5px solid rgb(68, 185, 220);*/
+    text-align: right;
+    padding-right: 30px;
+}
+

@@ -1,0 +1,111 @@
+
+.grid31 {
+  grid-area: grid31;
+  display: grid;
+  grid-template-columns: 150px 100px 100px 270px;
+  grid-template-rows: 100px 50px;
+  grid-template-areas:
+  'grid311 grid312 grid312 grid312'
+  'grid311 grid314 grid315 grid319';
+  overflow: hidden;
+  height: 154px;
+  border: 3px solid  #f0e5ee;
+  border-radius: 10px;
+  /*background-image: url('/src/assets/images/Fon2.jpg');*/
+  background: linear-gradient(90deg, #FFFFFF, #FBF4FB, #F0F0F0, #FFFFFF);
+}
+  
+.grid311 {
+  grid-area: grid311;
+}
+
+.grid311 img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid  #f1eeef;
+  /*box-shadow: 0 16px 38px -12px rgba(233, 231, 231, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(224, 220, 220, 0.2);*/
+  padding: 2px;
+}
+  
+.grid312 {
+  grid-area: grid312;
+  font-size: 16px;
+  font-weight: bold;
+  color: #4f153f;
+  padding-left: 10px;
+}
+  
+.grid314 {
+  grid-area: grid314;
+  font-size: 16px;
+  color: #555;
+  padding-left: 10px;
+  padding-top: 10px;
+  position: relative; 
+}
+  
+.grid315 {
+  grid-area: grid315;
+  font-size: 16px;
+  color: #555;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.grid319 {
+  grid-area: grid319;
+  font-size: 16px;
+  margin-bottom: 3px;
+  border-radius: 15px;
+  /*border: 1px solid  #9e3993;*/
+  box-shadow: 0 16px 38px -12px rgba(233, 231, 231, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(224, 220, 220, 0.2);
+  background: linear-gradient(90deg, #7b677c, #4b0145, #494849, #ebc6ea);
+  color: #fefcfd;
+}
+
+.overlayLine {
+  position: absolute; /* Позволяет наложить картинку */
+  top: 50%; /* Позиционирует изображение */
+  transform: translate(-10%, -50%) rotate(135deg);
+  width: 50%; /* Подстройка размеров линии */
+  height: auto; /* Сохраняет пропорции */
+  z-index: 1; /* Изображение линии под текстом */
+
+}
+
+.addButton, .deleteButton {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 15px;
+  background: linear-gradient(90deg, #7b677c, #4b0145, #494849, #ebc6ea);
+  color: #fefcfd;
+}
+
+.addButton:hover, .deleteButton:hover {
+  background-color: #d7c8d6; /* Цвет при наведении */
+}
+
+.addButton:active, .deleteButton:active {
+  transform: scale(0.95); /* Эффект "нажатия" */
+}
+
+.notification {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #8b2077;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(225, 155, 210, 0.2);
+  font-size: 14px;
+  z-index: 1000;
+}
+
